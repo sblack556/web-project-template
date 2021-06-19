@@ -1,0 +1,22 @@
+/*  CSS Style Sheet */
+
+/* CSS stands for Cascading Style Sheets.  This file is considered an external CSS style sheet.  CSS is used to define styles for your HTML web pages, including the design, layout and variations in display for different devices and screen sizes. All styling should be in the CSS stylesheet not in the HTML file.*/
+
+/* Examples of some CSS formats */
+
+/* For tag
+p {
+    background-color:aquamarine;
+}
+
+For class
+
+.large  {
+    font-size: 16px;
+}
+
+For id
+#par1 {
+color: darkcyan;
+} */
+

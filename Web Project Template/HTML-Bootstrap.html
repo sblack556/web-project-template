@@ -1,0 +1,64 @@
+<!--HTML file set up to include Bootstrap -->
+
+<!-- HTML stands for Hyper Text Markup Language.  HTML is the standard language for creating Web pages.  HTML describes the structure and puts content on the Web page. -->
+
+<!-- Starting a HTML file with the following two lines defines it as a HTML document and specifies the language of the content-->
+
+<!Doctype html>
+<html lang="en-us">
+
+<!-- The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. Metadata is data about the HTML document. Metadata is not displayed. Metadata typically define the document title, character set, styles, scripts, and other meta information. -->
+
+<head>
+
+ <!--<meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings. 
+ Metadata is used by browsers and will not be displayed on the page.   
+--> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The title goes inside the <head> element and specifies the title for the HTML page and is shown in the page's tab.  It will not show on the web page -->
+
+        <title></title>
+
+    <!--link to Bootstrap CSS stylesheet-->
+    <!-- Bootstrap is a free front-end framework for faster and easier web development.  Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.  Bootstrap also gives you the ability to easily create responsive designs.
+    The link below must be inside the <head> element to use Bootstrap--> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!--Below is the link to the external CSS stylesheet to add style to the HTML.  This link is put inside the head element.-->
+    <link rel="stylesheet" href="styles/stylesheet.css">
+
+
+</head>
+
+<!-- The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+
+<body>
+
+    <!-- Bootstrap’s responsive (adapts to screen size) grid system uses a series of containers, rows, and columns to layout and align content.  The following two "container" and "row" lines must be in the beginning of the <body> element to use this feature. -->
+
+    <main class="container">
+        <section class="row">
+
+
+
+
+
+            
+
+</section>
+    </main>
+
+    <!--Following is the link to the Bootstrap JavaScript file-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>  
+
+ <!--Link to external JavaScript file.-->
+ <!-- This link is located right before the closing </body> tag to prevent the JavaScript from loading before the HTML which could cause errors-->
+    <script src="scripts/myscripts.js"></script>
+
+<!-- Below are the closing, or end tags, for the <body> and <html> elements.  Make sure to use closing tags for any opening tags that need a closing tag. -->
+</body>
+
+</html>
